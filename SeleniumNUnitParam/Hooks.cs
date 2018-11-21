@@ -29,6 +29,7 @@ namespace SeleniumNUnitParam
             _browserType = (BrowerType)Enum.Parse(typeof(BrowerType), browserType);
             //Pass it to browser
             ChooseDriverInstance(_browserType);
+
         }
 
         private void ChooseDriverInstance(BrowerType browserType)
